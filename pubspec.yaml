@@ -1,0 +1,32 @@
+name: video_walkthrough
+description: >-
+  A customizable onboarding walkthrough for Flutter that plays a looping
+  background video behind animated, swipeable pages with dot indicators.
+version: 2.0.0
+homepage: https://github.com/ANaSHaker/video_walkthrough
+repository: https://github.com/ANaSHaker/video_walkthrough
+issue_tracker: https://github.com/ANaSHaker/video_walkthrough/issues
+topics:
+  - onboarding
+  - walkthrough
+  - video
+  - intro
+  - widget
+
+environment:
+  sdk: ^3.3.0
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  plugin_platform_interface: ^2.1.0
+  video_player_platform_interface: ^6.2.0
+
+flutter:

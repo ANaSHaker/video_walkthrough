@@ -1,0 +1,95 @@
+{
+  "outDir": "..",
+  "brand": {
+    "name": "video_walkthrough",
+    "tagline": "Video-backed onboarding for Flutter, in one widget.",
+    "accent": "#7C3AED",
+    "accent2": "#DB2777",
+    "dark": true
+  },
+  "images": [
+    {
+      "type": "banner",
+      "file": "banner.png",
+      "kicker": "Flutter package · pub.dev",
+      "subtitle": "Looping background video, animated pages, dots, Skip / Continue / Start, in one widget.",
+      "screens": [
+        "ss1_crop.png",
+        "example_1_pad.png",
+        "ss2_crop.png"
+      ],
+      "devices": [
+        "android",
+        "iphone",
+        "android"
+      ],
+      "chips": [
+        "Flutter",
+        "Dart 3",
+        "video_player",
+        "MIT"
+      ],
+      "css": ".title{font-size:50px!important;letter-spacing:-.03em}"
+    },
+    {
+      "type": "devices",
+      "file": "example-app.png",
+      "title": "The example app (v2.0.0)",
+      "screens": [
+        "example_1_pad.png",
+        "example_2_pad.png",
+        "example_3_pad.png"
+      ],
+      "devices": [
+        "iphone",
+        "android",
+        "iphone"
+      ],
+      "height": 960,
+      "css": ".grain:after{opacity:.025!important}"
+    },
+    {
+      "type": "devices",
+      "file": "in-production.png",
+      "title": "In a real app: Visit Egypt onboarding",
+      "screens": [
+        "gif_0.png",
+        "ss1_crop.png",
+        "ss2_crop.png"
+      ],
+      "devices": [
+        "android",
+        "android",
+        "android"
+      ],
+      "height": 960,
+      "css": ".grain:after{opacity:.025!important}"
+    },
+    {
+      "type": "feature",
+      "file": "feature-v2.png",
+      "kicker": "What's new in 2.0.0",
+      "title": "Rebuilt for modern Flutter",
+      "points": [
+        "Inactive dots finally use indicatorInActiveColor",
+        "Null-safe finish: onFinish, pageRoute or nothing",
+        "No more removed FlatButton: Material 3 buttons",
+        "Video covers the screen and is always disposed",
+        "Typed API, dartdoc, 11 widget tests"
+      ],
+      "screens": [
+        "example_2_pad.png",
+        "example_3_pad.png"
+      ],
+      "devices": [
+        "iphone",
+        "android"
+      ],
+      "css": ".grain:after{opacity:.025!important}"
+    }
+  ],
+  "_notes": [
+    "Screens: ss1/ss2 = original 2022 README screenshots (Visit Egypt app), gif_0 = frame of the original demo GIF, example_* = example app built with `flutter build web` and captured in headless Chrome (390x844 @2x).",
+    "Post-processing: example-app/feature-v2 downscaled to 1400px and in-production to 1280px with Pillow (LANCZOS) to stay under 1.5 MB."
+  ]
+}

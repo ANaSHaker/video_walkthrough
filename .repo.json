@@ -1,0 +1,6 @@
+{
+  "name": "video_walkthrough",
+  "description": "Flutter package for video-backed onboarding: a looping background video, animated pages, dot indicators and Skip / Continue / Start in one widget. Version 2.0.0 rewrite for Dart 3 with typed API, dartdoc and widget tests. Onboarding that moves",
+  "topics": ["flutter", "dart", "flutter-package", "onboarding", "walkthrough", "video-player", "pub-dev", "widget", "intro-screen"],
+  "homepage": "https://pub.dev/packages/video_walkthrough"
+}
